@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "145538057805",
+    "firebase_url": "https://date-goal-mobile-app.firebaseio.com",
+    "project_id": "date-goal-mobile-app",
+    "storage_bucket": "date-goal-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145538057805:android:1634afb7d26fa31183be04",
+        "android_client_info": {
+          "package_name": "com.example.linkitsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145538057805-cptasv2uickvt3o4u1g1s5uu6vstnntq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGAteBbfrkj1wZmerCeeAWfu3b9fhF4e8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145538057805-cptasv2uickvt3o4u1g1s5uu6vstnntq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "145538057805-gvvg9sch7c2nkodmt146f9309outmqta.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.LinkItSoft.DateGoal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145538057805:android:b89d60646a18db0783be04",
+        "android_client_info": {
+          "package_name": "com.linkitsoft.dategoal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145538057805-cptasv2uickvt3o4u1g1s5uu6vstnntq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGAteBbfrkj1wZmerCeeAWfu3b9fhF4e8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145538057805-cptasv2uickvt3o4u1g1s5uu6vstnntq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "145538057805-gvvg9sch7c2nkodmt146f9309outmqta.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.LinkItSoft.DateGoal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

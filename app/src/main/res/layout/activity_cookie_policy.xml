@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Agreement.CookiePolicy">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="COOKIE POLICY"
+                android:textSize="25dp"
+                android:textColor="@color/orangeasli"
+                android:fontFamily="@font/sfprotext_semibold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. ABOUT COOKIES"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="A cookie is a small text file containing a unique identification number that is placed on the hard disk of your computer by a web page server, enabling the
+web server to identify your web browser and passively track its activities on
+that app. A cookie does not reveal any personally identifiable information that
+you have not otherwise disclosed. Cookies do not contain any executable code
+and cannot be used for infecting your computer with a virus. Most apps
+automatically accept cookies but usually provide the option of configuring your
+browser to accept all cookies, reject all cookies, or notify you when a cookie is
+sent. You can change your settings in the preferences or options menu of your
+browser. If you choose to decline cookies, certain features of our app may not
+be available to you" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. HOW DOES DATEGOAL USE COOKIES?"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="2.1 In line with standard industry practice, we use cookies to track app usage.
+We use cookies that are strictly necessary to enable/allow you to move around
+our app. DateGoal also uses cookies to improve your experience by
+remembering your details so that you do not need to keep re-entering them
+when navigating our app." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="2.2 One of the reasons this app uses cookies is to make sure that people are
+not counted double. This analytics cookie does not store any personal details
+like your name or email address. It’s just there to help us find out what’s
+popular among app visitors." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. COOKIES THAT DATEGOAL USES"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="3.1 DateGoal uses a few services to help us understand how people use our
+app and the problems they might encounter as they use it." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="3.1.1. Google Analytics: We use Google Analytics (which uses cookies) to help
+us understand what actions people take when they are using the app, and
+information about the device the user is using to access the app. All of the data
+2 | P a g e
+we track in Google Analytics is anonymous and there is no personal identifying
+information contained therein. To opt out of our usage of Google Analytics, you
+can use this opt-out tool from Google. Google has more information about the
+cookies they use and how you can be aware of what's being tracked." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:text="3.2 DateGoal uses cookies for the following purposes:
+(a) Authentication – we use cookies to identify you when you visit our app and
+as you navigate our app;
+(b) Status – we use cookies to help us to determine if you are logged into our
+app;
+(c) Personalization – we use cookies to store information about your preferences
+and to personalize the app for you;
+(d) Security – we use cookies as an element of the security measures used to
+protect users." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. HOW TO DELETE COOKIES "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:text="You can control your cookies, delete them and reject them in the settings of
+your browser."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. ACCEPTANCE "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:text="Your access to and use of DateGoal is conditioned on your acceptance of and
+compliance with these Cookie Policy. These Terms apply to all visitors, users
+and others who access or use the app. By using the app and agreeing to this
+policy, you consent to our use of cookies in accordance with the terms given
+herein."/>
+
+            <Button
+                android:id="@+id/cookieNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/roundbtnselectorsignup"
+                android:fontFamily="@font/sfprotext_semibold"
+                android:text="I Agree"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

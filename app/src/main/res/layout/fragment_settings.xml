@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true">
+
+    <FrameLayout
+        android:id="@+id/main_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        tools:context=".ui.settings.SettingsFragment">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/sfprotext_semibold"
+                    android:text="Settings"
+                    android:textColor="#000"
+                    android:textSize="35dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:elevation="7dp"
+                    android:src="@drawable/thumbaa"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="@+id/floatingActionButton3"
+                    app:layout_constraintTop_toTopOf="@+id/floatingActionButton3"
+                    app:tint="@color/orangeasli" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:clickable="true"
+                    android:tint="#888"
+                    app:backgroundTint="#ffff"
+                    app:elevation="6dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/notiell" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/mainshimmer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+                app:shimmer_duration="1000"
+                app:shimmer_repeat_delay="300">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/greybgcurve"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+                        <Button
+                            android:id="@+id/editTextTextEmailAddress7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnselectorwht"
+                            android:backgroundTint="#fff"
+                            android:drawableEnd="@drawable/fwdselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="8dp"
+                            android:paddingStart="20dp"
+                            android:text="Push notifications"
+                            android:textAlignment="textStart"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/editTextTextEmailAddress8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="@drawable/roundbtnselectorwht"
+                            android:backgroundTint="#fff"
+                            android:drawableEnd="@drawable/fwdselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="8dp"
+                            android:paddingStart="20dp"
+                            android:text="Privacy Policy"
+                            android:textAlignment="textStart"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress9"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress7" />
+
+
+                        <Button
+                            android:id="@+id/editTextTextEmailAddress9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="32dp"
+                            android:background="@drawable/roundbtnselectorwht"
+                            android:backgroundTint="#fff"
+                            android:drawableEnd="@drawable/fwdselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="8dp"
+                            android:paddingStart="20dp"
+                            android:text="Term of Services"
+                            android:textAlignment="textStart"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:background="@drawable/greybgcurve"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/sfprotextregular"
+                            android:text="Account Settings"
+                            android:textColor="#171717"
+                            android:textSize="16dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout19" />
+
+                        <TextView
+                            android:id="@+id/editTextTextEmailAddress2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundentry"
+                            android:backgroundTint="#fff"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text=""
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+                        <Button
+                            android:id="@+id/button13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/roundbtnselectorsignup"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Start Verification"
+                            android:textAllCaps="false"
+                            android:textColor="#fff"
+                            android:visibility="visible"
+                            android:textSize="18dp"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress2"
+                            app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress2"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+
+
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/editTextTextEmailAddress3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundentry"
+                            android:backgroundTint="#fff"
+                            android:padding="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button13">
+
+                            <TextView
+                                android:id="@+id/textView18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/sfprotextregular"
+                                android:text="Phone number"
+                                android:textColor="#171717"
+                                android:textSize="14dp"
+                                app:layout_constraintBottom_toTopOf="@+id/textView19"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#171717"
+                                android:textSize="16dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <Button
+                            android:id="@+id/editTextTextEmailAddress4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnselectorwht"
+                            android:backgroundTint="#fff"
+                            android:drawableEnd="@drawable/fwdselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="8dp"
+                            android:paddingStart="20dp"
+                            android:text="Connected Accounts"
+                            android:textAlignment="textStart"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress3" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginBottom="52dp"
+                            android:background="@drawable/roundentry"
+                            android:backgroundTint="#fff"
+                            android:padding="20dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress4"
+                            app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress4"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress4">
+
+                            <TextView
+                                android:id="@+id/textView22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/sfprotextregular"
+                                android:text="Email"
+                                android:textColor="#171717"
+                                android:textSize="14dp"
+                                app:layout_constraintBottom_toTopOf="@+id/textView23"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView23"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#171717"
+                                android:textSize="16dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="32dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/roundentry"
+                            android:backgroundTint="#fff"
+                            app:layout_constraintBottom_toTopOf="@+id/textView17"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/circleImageView"
+                                android:layout_width="70dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginBottom="4dp"
+                                android:src="@color/redish"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="8dp"
+                                app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
+                                app:layout_constraintStart_toEndOf="@+id/circleImageView"
+                                app:layout_constraintTop_toTopOf="@+id/circleImageView">
+
+                                <TextView
+                                    android:id="@+id/textView56"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:backgroundTint="#fff"
+                                    android:fontFamily="@font/sfprotext_semibold"
+                                    android:gravity="clip_vertical|center_horizontal"
+                                    android:text="User name"
+                                    android:textColor="@color/black"
+                                    android:textSize="18dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    tools:ignore="MissingConstraints" />
+
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            <ImageButton
+                                android:id="@+id/imageButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="8dp"
+                                android:background="@drawable/shade"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/pen" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/greybgcurve"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="@drawable/greybgcurve"
+                            android:backgroundTint="#fff"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout11">
+
+                            <net.cachapa.expandablelayout.ExpandableLayout
+                                android:id="@+id/expandable_layout_sexual"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:el_duration="1000"
+                                app:el_expanded="true"
+                                app:el_parallax="0.5"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ToggleButton
+                                        android:id="@+id/button26"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="32dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Straight"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Straight"
+                                        android:textOn="Straight"
+                                        android:textSize="14dp"
+
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button27"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Lesbian"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Lesbian"
+                                        android:textOn="Lesbian"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button26" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button28"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Bisexual"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Bisexual"
+                                        android:textOn="Bisexual"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button27" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button29"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Gay"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Gay"
+                                        android:textOn="Gay"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button28" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button30"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Queer"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Queer"
+                                        android:textOn="Queer"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button29" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button31"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="LGBTQ"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="LGBTQ"
+                                        android:textOn="LGBTQ"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button30" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button19"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Coming Out"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Coming Out"
+                                        android:textOn="Coming Out"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button31" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button33"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:layout_marginBottom="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="others"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="others"
+                                        android:textOn="others"
+                                        android:textSize="14dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button19" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </net.cachapa.expandablelayout.ExpandableLayout>
+
+                            <TextView
+                                android:id="@+id/textView29"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginBottom="32dp"
+                                android:text="Sexual preference"
+                                android:textColor="#171717"
+                                android:textSize="18dp"
+                                app:layout_constraintBottom_toTopOf="@+id/expandable_layout_sexual"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                            <ImageButton
+                                android:id="@+id/imgbtn_expand_sexulpreference"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/upselector"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/greybgcurve"
+                            android:backgroundTint="#fff"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout10">
+
+
+                            <net.cachapa.expandablelayout.ExpandableLayout
+                                android:id="@+id/expandable_layout_ethnicity"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:el_duration="1000"
+                                app:el_expanded="true"
+                                app:el_parallax="0.5"
+
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView28">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ToggleButton
+                                        android:id="@+id/button20"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="32dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="American Indian/Alaska Native"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="American Indian/Alaska Native"
+                                        android:textOn="American Indian/Alaska Native"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button21"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Asian"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Asian"
+                                        android:textOn="Asian"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button20" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button22"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Black/African American"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Black/African American"
+                                        android:textOn="Black/African American"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button23"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Hispanic/Latino"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Hispanic/Latino"
+                                        android:textOn="Hispanic/Latino"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button24"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Native Hawaiian/Other Pacific Islander"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Native Hawaiian/Other Pacific Islander"
+                                        android:textOn="Native Hawaiian/Other Pacific Islander"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button25"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:layout_marginBottom="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="White"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="White"
+                                        android:textOn="White"
+                                        android:textSize="14dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button24" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </net.cachapa.expandablelayout.ExpandableLayout>
+
+                            <ImageButton
+                                android:id="@+id/imgbtn_expand_ethnicity"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/upselector"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView28"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginBottom="32dp"
+
+                                android:text="Ethnicity"
+                                android:textColor="#171717"
+                                android:textSize="18dp"
+                                app:layout_constraintBottom_toTopOf="@+id/expandable_layout_ethnicity"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/greybgcurve"
+                            android:backgroundTint="#fff"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout9">
+
+                            <ImageButton
+                                android:id="@+id/imgbtn_expand_agerange"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/upselector"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView27"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginBottom="32dp"
+                                android:text="Prefer age range"
+                                android:textColor="#171717"
+                                android:textSize="18dp"
+                                app:layout_constraintBottom_toTopOf="@+id/expandable_layout_age"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <net.cachapa.expandablelayout.ExpandableLayout
+                                android:id="@+id/expandable_layout_age"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:el_duration="1000"
+                                app:el_expanded="true"
+                                app:el_parallax="0.5"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <com.google.android.material.slider.RangeSlider
+                                        android:id="@+id/agerange"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:stepSize="1"
+                                        android:theme="@style/MyMaterialTheme"
+                                        android:valueFrom="18f"
+                                        android:valueTo="90f"
+                                        app:values="@array/initial_slider_values"
+                                        tools:ignore="MissingConstraints" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </net.cachapa.expandablelayout.ExpandableLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/greybgcurve"
+                            android:backgroundTint="#fff"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <net.cachapa.expandablelayout.ExpandableLayout
+                                android:id="@+id/expandable_layout_lookingfor"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                app:el_duration="1000"
+                                app:el_expanded="true"
+                                app:el_parallax="0.5"
+                                app:layout_constraintBottom_toBottomOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ToggleButton
+                                        android:id="@+id/toggleButton18"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:layout_marginBottom="32dp"
+                                        android:background="@drawable/toggleseletorset"
+                                        android:elevation="0dp"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:text="Dating"
+                                        android:textAllCaps="false"
+                                        android:textColor="#499D2F"
+                                        android:textOff="Dating"
+                                        android:textOn="Dating"
+                                        android:textSize="16dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toStartOf="@+id/toggleButton19"
+                                        app:layout_constraintStart_toStartOf="parent" />
+
+                                    <ToggleButton
+                                        android:id="@+id/toggleButton19"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="32dp"
+                                        android:background="@drawable/toggleseletorset"
+                                        android:elevation="0dp"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:paddingStart="5dp"
+                                        android:paddingEnd="5dp"
+                                        android:text="Friendship"
+                                        android:textAllCaps="false"
+                                        android:textColor="#499D2F"
+                                        android:textOff="Friendship"
+                                        android:textOn="Friendship"
+                                        android:textSize="16dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toStartOf="@+id/toggleButton20"
+                                        app:layout_constraintStart_toEndOf="@+id/toggleButton18" />
+
+                                    <ToggleButton
+                                        android:id="@+id/toggleButton20"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:layout_marginBottom="32dp"
+                                        android:background="@drawable/toggleseletorset"
+                                        android:elevation="0dp"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:text="Both"
+                                        android:textAllCaps="false"
+                                        android:textColor="#499D2F"
+                                        android:textOff="Both"
+                                        android:textOn="Both"
+                                        android:textSize="16dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/toggleButton19" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </net.cachapa.expandablelayout.ExpandableLayout>
+
+                            <ImageButton
+                                android:id="@+id/imgbtn_expand_lookingfor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/upselector"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView25"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="32dp"
+                                android:text="Looking for"
+                                android:textColor="#171717"
+                                android:textSize="18dp"
+                                app:layout_constraintBottom_toTopOf="@+id/expandable_layout_lookingfor"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/greybgcurve"
+                            android:backgroundTint="#fff"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+                            <net.cachapa.expandablelayout.ExpandableLayout
+                                android:id="@+id/expandable_layout_gender"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                app:el_duration="1000"
+                                app:el_expanded="true"
+
+                                app:el_parallax="0.5"
+                                app:layout_constraintBottom_toBottomOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ToggleButton
+                                        android:id="@+id/button16"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:layout_marginBottom="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:elevation="0dp"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Transgender"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Transgender"
+                                        android:textOn="Transgender"
+                                        android:textSize="14dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button14"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:elevation="0dp"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Female"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Female"
+                                        android:textOn="Female"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+                                    <ToggleButton
+                                        android:id="@+id/button15"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:background="@drawable/roundbtnborderselector"
+                                        android:elevation="0dp"
+                                        android:fontFamily="@font/sfprotext_semibold"
+                                        android:padding="20dp"
+                                        android:text="Male"
+                                        android:textAllCaps="true"
+                                        android:textColor="#454545"
+                                        android:textOff="Male"
+                                        android:textOn="Male"
+                                        android:textSize="14dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </net.cachapa.expandablelayout.ExpandableLayout>
+
+                            <ImageButton
+                                android:id="@+id/imgbtn_expand_gender"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/upselector"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView26"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginBottom="32dp"
+                                android:text="I am intrested in"
+                                android:textColor="#171717"
+                                android:textSize="18dp"
+                                app:layout_constraintBottom_toTopOf="@+id/expandable_layout_gender"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="24dp"
+                            android:background="@drawable/greybgcurve"
+                            android:backgroundTint="#fff"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout12">
+
+                            <net.cachapa.expandablelayout.ExpandableLayout
+                                android:id="@+id/expandable_layout_city"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:el_duration="1000"
+                                app:el_expanded="true"
+                                app:el_parallax="0.5"
+                                app:layout_constraintBottom_toBottomOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:paddingBottom="10dp">
+
+                                    <com.linkitsoft.dategoal.NoScrollExListView
+                                        android:id="@+id/spinner2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/roundborder"
+                                        android:divider="@android:color/darker_gray"
+                                        android:dividerHeight="0.5dp"
+                                        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                                        android:nestedScrollingEnabled="true"
+                                        android:padding="10dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <com.linkitsoft.dategoal.NoScrollExListView
+                                        android:id="@+id/spinner3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/roundborder"
+                                        android:divider="@android:color/darker_gray"
+                                        android:dividerHeight="0.5dp"
+                                        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                                        android:nestedScrollingEnabled="true"
+                                        android:padding="10dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@id/spinner2" />
+
+                                    <com.linkitsoft.dategoal.NoScrollExListView
+                                        android:id="@+id/spinner1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginEnd="32dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@drawable/roundborder"
+                                        android:divider="@android:color/darker_gray"
+                                        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                                        android:nestedScrollingEnabled="true"
+                                        android:padding="10dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@id/spinner3" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </net.cachapa.expandablelayout.ExpandableLayout>
+
+                            <ImageButton
+                                android:id="@+id/imgbtn_expand_location"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/upselector"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView30"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginBottom="32dp"
+                                android:text="Location"
+                                android:textColor="#171717"
+                                android:textSize="18dp"
+                                app:layout_constraintBottom_toTopOf="@+id/expandable_layout_city"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/greybgcurve"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout14">
+
+                        <Button
+                            android:id="@+id/button35"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnselectorwht"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Log out"
+                            android:textAlignment="viewStart"
+                            android:textAllCaps="false"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/button36"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="24dp"
+                            android:background="@drawable/roundbtnselectorwht"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Delete account"
+                            android:textAlignment="viewStart"
+                            android:textAllCaps="false"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button35" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <Button
+                android:id="@+id/button37"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/sfprotext_semibold"
+                android:gravity="start"
+                android:text="Share app"
+                android:textColor="#171717"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mainshimmer" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="52dp"
+                android:fontFamily="@font/sfprotext_semibold"
+                android:gravity="start"
+                android:text="DateGoal V10.0 (Beta)"
+                android:textColor="#171717"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button37" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+</ScrollView>

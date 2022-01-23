@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ui.signup.EnterPhoneNumber">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:inputType="textMultiLine"
+        android:text="Enter your phone number"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#fff"
+            android:ems="10"
+            android:fontFamily="@font/sfprotext_semibold"
+            android:hint="331"
+            android:inputType="phone"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="8dp"
+            app:ccpDialog_allowSearch="true"
+            app:ccpDialog_keyboardAutoPopup="true"
+            app:ccpDialog_searchEditTextTint="#fff"
+            app:ccp_areaCodeDetectedCountry="true"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_contentColor="#fff"
+            app:ccp_countryAutoDetectionPref="NETWORK_ONLY"
+            app:ccp_textGravity="CENTER"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextPhone"
+            app:layout_constraintEnd_toStartOf="@+id/editTextPhone"
+            app:layout_constraintHorizontal_bias="0.307"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.666" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#03FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+            app:srcCompat="@drawable/nextimageselector" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

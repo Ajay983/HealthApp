@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.linkitsoft.dategoal">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" tools:node="remove" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="userPortrait"
+        android:windowIsTranslucent ="false"
+        android:windowIsFloating="false"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Transparent">
+
+        <activity android:name="com.linkitsoft.dategoal.ui.home.EditMyProfile"></activity>
+        <activity android:name="com.linkitsoft.dategoal.ui.group.DeleteGroup" />
+        <activity android:name="com.linkitsoft.dategoal.MyProfile" />
+        <activity android:name="com.linkitsoft.dategoal.Agreement.SettingsTermsOfUse" />
+        <activity android:name="com.linkitsoft.dategoal.Agreement.SettingsPrivacyPolicy" />
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="true" />
+
+        <service
+            android:name="FirebaseService.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.linkitsoft.dategoal.Agreement.TermsOfUse" />
+        <activity android:name="com.linkitsoft.dategoal.Agreement.CopyRightPolicy" />
+        <activity android:name="com.linkitsoft.dategoal.Agreement.PrivacyPolicy" />
+        <activity android:name="com.linkitsoft.dategoal.Agreement.CookiePolicy" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.linkitsoft.dategoal.ReportUser" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.ForgotPass_3"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.ForgotPass_2"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.Forgotpass_1"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.SignupPager"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnableLocation"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.AllowNoti"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.group.groupadd"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.home.Swipe"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.Profile.Profile"
+            android:screenOrientation="userPortrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCQe_nCYLQR54SC9YhGo55VukPwTON0jzA" />
+
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.settings.AccVerificaition"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.settings.ConnectedAccs"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.settings.PushNoti"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.settings.PrivacyPolicy"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.group.Groupchat"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.Expendablelistview"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.home.Filter"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.messages.ChatActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterOtp"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.Homescreen"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.PasswordRecovery"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.Login"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterPhotos"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterPassion"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterRGoal"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterTattoo"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterReligionYes"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterReligon"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterHerefor"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterSexuality"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterEthnicity"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterGender"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterBirthday"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterName"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.EnterPhoneNumber"
+            android:screenOrientation="userPortrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.linkitsoft.dategoal.ui.signup.Signup"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.linkitsoft.dategoal.SplashScreen"
+            android:screenOrientation="userPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.linkitsoft.dategoal.MainActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+    </application>
+
+</manifest>

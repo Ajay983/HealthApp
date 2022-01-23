@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="10dp">
+        <item android:drawable="@drawable/eyeselector"></item>
+    </item>
+</layer-list>

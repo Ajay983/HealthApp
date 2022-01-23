@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Agreement.TermsOfUse">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#03FFFFFF"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/backimageselectortrans" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="TERMS OF USE"
+                android:textSize="25dp"
+                android:textColor="@color/orangeasli"
+                android:fontFamily="@font/sfprotext_semibold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="The following terms of use set out the relationship between DateGoal (us, our, we) and its customers (you) when you subscribe to and use the Service, whether through a mobile device, mobile application (our app) or computer. " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="If you are under the age of 18 years old, you are not allowed to use the Service. You can only use the Service for your personal use. Commercial use is not permitted. By registering to or using the Service, you agree to be bound by these Terms of Use."/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. OBJECT OF YOUR SUBSCRIPTION "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="1.1 Once you have signed up for an account, DateGoal will provide you with access to an online database over which you will be able to get know other registered customers (also known as members) (the “Service”). The Service can only be accessed via mobile apps on iOS and Android devices (although, in the future, other operating systems may be made available), or via the Internet."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="1.2 The online database provided by DateGoal contains profiles about members, which contain photos and information made available by those members. You can find more information about the types of personal information that are collected and how this information is made available to other members in our Privacy Policy. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="1.3 Please be aware that while we hope that by using our Service you will successfully meet and form a relationship with another member, we cannot guarantee that your use of the Service will result in matrimony or any other long-term or meaningful commitment.  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. ACCESS OF THE SERVICE AND YOUR SUBSCRIPTION "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="2.1 To access and use the Service you will need to register. To do this, you will need to provide an email address and a password of your choice. Once you have registered, you will be automatically allocated a profile ID (a pseudonym) and a “service password” by DateGoal, which will be emailed to you. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="2.2 At this stage, DateGoal will also offer you various services or features that are subject to a monthly subscription fee of $39.99. Before you sign up to purchase such services or features, we will provide you with further information about what you will be purchasing, for example, where applicable: the main characteristics of the services or features, the term of your subscription (including any extension), how to terminate your subscription, the price and any payment conditions. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. RESPONSIBILITY AND DUTIES OF THE CUSTOMER "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="3.1 As mentioned above, you are responsible for the accuracy of the content that you provide at registration and for all the information you provide about yourself in your profile. By providing us with this information, you agree and confirm that it is truthful and accurate. Intentional and/or fraudulent misrepresentation of your identity, including use of another or fictitious identity, can also subject you to potential legal liability"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="3.2 You must pay all charges within the time frames in which they fall due as per the subscription."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="3.3 If you materially breach these Terms of Use, or otherwise breach the law in relation to your use of our Service, DateGoal may be entitled to claim damages in accordance with the general rules of US law."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="3.4 You agree not to:- "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="	to distribute any immoral, obscene, pornographic or radical political content or photos; "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="	to distribute any defamatory, offensive or otherwise illegal content or information;"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="	to threaten or harass other members, or to infringe any third party rights (including personal rights);   "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="	to upload any data which contains a virus (such as infected software); or to upload data which contains a software or other content which is protected by copyright, unless you own the rights in that content or have otherwise obtained the necessary consents;   "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="	to intercept any e-mails / messages or to attempt to intercept them;"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="	to send any messages that serve a commercial purpose."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="3.5 By registering for a DateGoal account, you agree and represent that you will not misuse the Service and comply with above mentioned requirements. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. LIABILITY OF DATEGOAL"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="4.1 You are responsible for the accuracy of the information provided during your registration. To the fullest extent permitted by law, DateGoal will not be liable for the accuracy of the content of your personality evaluation and the matches made to you by DateGoal as a result of your answers. If you need to update your profile or registration information, you can generally do this at any time through your profile. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="4.2 DateGoal is only responsible for the technical provision of the Service (i.e. the provision of our Service). DateGoal will generally enable you to make contacts with other members. We cannot, however, guarantee that you will be able to successfully secure a partner as a result of using the Service."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="4.3 While DateGoal works hard to provide a high quality service, DateGoal does not guarantee that the Service will perform perfectly at all times and cannot ensure that the Service will always be uninterrupted, secure or error-free. In particular, DateGoal is not liable for disruptions that affect the accessibility of the Service where such disruptions are caused by actions or events that are outside DateGoal’s control. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. RIGHTS OF USE AND COPYRIGHT "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="5.1 By using our Service, you understand and agree that DateGoal is the sole owner of all the rights in and related to the Service, including any rights of reproduction, distribution and processing, all copyrights, as well as the right of the intangible transmission and reproduction of the DateGoal app and of the content included within it. The use of any program, content, materials, trademarks as well as commercial names contained within the Service is only permitted for the purposes set out in these Terms of Use."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="5.2 By creating an account, you grant DateGoal the right to use (including to host, store, use, copy, display, reproduce, adapt, edit, publish, modify or distribute) any information you make available on the Service (including any information you include in your profile) for the purposes of providing the Service to you and other members."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="5.3 You understand that we have the right (but not the obligation) at our sole discretion to refuse to post, or to remove, any information that you make available on the Service; and that we have the right to change, condense or delete such content."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. CANCELLATION POLICY"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="6.1 Right to Cancel"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="If you have changed your mind about subscribing for our Membership, you have the right to cancel your subscription, without reason, within 14 days from the date on which we sent you an email confirmation of your purchase."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="6.2 Effects of cancellation"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="If you cancel your subscription within the 14-day cancellation period, we will refund to you all payments that we have received from you for the cancelled subscription without undue delay and in any event no later than 14 days from the day on which we were informed of your decision to cancel your subscription. We will provide this refund using the same means of payment that you used for the initial transaction, unless you have expressly agreed otherwise; and you will not be charged for this refund."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="However, please note that if you have started to use the subscription within the 14- day cancellation period, we will be entitled to retain from the refunded payment a reasonable amount (value compensation) to account for that portion of the subscription that you have already received."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. MISCELLANEOUS  "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="7.1 You may not assign or sub-contract any of your rights or obligations under the Terms to any third party unless we agree in writing."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="7.2 DateGoal may use third-party service providers and agents, including entities belonging to our group, to help us provide the Service to you."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="7.3 Please note that we reserve the right to change and update these Terms of Use from time to time."/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

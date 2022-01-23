@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Agreement.PrivacyPolicy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#03FFFFFF"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/backimageselectortrans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/sfprotext_semibold"
+                android:gravity="center"
+                android:text="PRIVACY POLICY"
+                android:textColor="@color/orangeasli"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.  OUR COMMITMENT TO YOUR PRIVACY"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Our Privacy Policy tells you what personally identifiable information DateGoal
+may collect from you, how DateGoal may process your personally identifiable
+information, how you can limit our use of your personally identifiable
+information, and your rights to obtain, modify and/or delete any personally
+identifiable information we have collected from you. DateGoal has set strict
+standards towards personal information privacy." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. INFORMATION DATEGOAL COLLECTS"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="2.1 Information you provide DateGoal
+DateGoal collects personal information when you request information about
+our services or otherwise voluntarily provide such information through our
+app." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Generally, you will have control over the amount and type of information you
+provide to us when using our app.
+As a visitor you can browse our app to find out more." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="2.2 Information Collected Automatically
+DateGoal only collect necessary information or information that is provided
+from the users’ side i.e. name, date of birth, gender, sexual orientation,
+ethnicity, religion, body art, personal statement, zip code, location, phone
+number and email address."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="When you use our app, we automatically collect certain information by the
+interaction of your mobile device or web browser with our app."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="2.3 Cookies"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Like many other apps, we use “Cookies.” A Cookie is a small piece of data
+stored on your computer or mobile device by our app. We use Cookies to
+identify the areas of our app that you have visited. We also use cookies to
+enhance your online experience by eliminating the need to log in multiple times
+for specific content. Finally, we may use Cookies to personalize the content that
+you see on our app or to customize marketing and other information we
+provide to you"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="2.4 Other Automatically-Gathered Information
+DateGoal may automatically record information when you visit its app,
+including the URL, IP address, browser type and language, and the date and
+time of your visit. We use this information to analyze trends among its
+customers to help improve its app or customize communications and
+information that you receive from us. If combined with other information we
+know about you from previous visits, the data possibly could be used to
+identify you personally, even if you are not signed in to our app."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. HOW INFORMATION IS USED"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="When DateGoal uses or processes personal data about you, it does so only as
+necessary to provide the services you use or otherwise with your consent, to
+comply with applicable law, or to fulfill other legitimate interests of you or us as
+described in this Policy. Through our app, you will be provided with the choice
+of which types of communications you will receive with us, and the ability to
+change those choices whenever you want."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="3.1 Information we process with your consent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Through certain actions when otherwise there is no contractual relationship
+between us, such as when you browse our app or ask us to provide you more
+information about our business, you provide your consent to us to process
+information that may be personally identifiable information. "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Wherever possible, we aim to obtain your explicit consent to process this
+information, for example, by asking you to agree to our use of Cookies or to
+receive communications from us."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="We continue to process your information on this basis until you withdraw your
+consent or it can be reasonably assumed that your consent no longer exists"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="You may withdraw your consent at any time by instructing us using the
+contact information at the end of this Policy. However, if you do so, you may
+not be able to use our app further."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="3.2 Legally Required Releases of Information"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="DateGoal may be legally required to disclose your personally identifiable
+information, if such disclosure is (a) required by law, or other legal process; (b)
+necessary to assist law enforcement officials or government enforcement
+agencies; (c) necessary to investigate violations of or otherwise enforce our
+3 | P a g e
+Legal Terms; (d) necessary to protect us from legal action or claims from third
+parties including you."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. OBTAINING, CHANGING OR DELETING YOUR INFORMATION"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="4.1 Access to your personal information"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="To obtain a copy of all information DateGoal maintains about you, you may
+send us a request using the contact information at the end of this Policy or, if
+available, through a tool on our app. After receiving the request, we will tell
+you when we expect to provide you with the information, and whether we
+require any fee for providing it to you.
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="4.2 Remove or Change your Information"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="If you wish us to remove or change personally identifiable information that you
+have provided us, you may contact us at the contact information at the end of
+this Policy or if available through a tool on our app."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="4.3 Verification of your Information"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="When we receive any request to access, edit or delete personally identifiable
+information, we will first take reasonable steps to verify your identity before
+granting you access or otherwise taking any action. This is important to
+safeguard your information."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="5. RETENTION PERIOD FOR PERSONAL DATA"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Except as otherwise mentioned in this Policy, we keep your personally
+identifiable information only for as long as required:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="a: to provide you with the services you have requested, or otherwise to
+perform or enforce a contract between us;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="b: to continue to provide the best possible user experience to visitors who
+return to our app to collect information;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="c: to comply with other law, including for any period demanded by tax
+authorities; or"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="d: to support a claim or defense in any court or in any legal, regulatory or
+administrative proceeding."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. LIMITATION OF LIABILITY"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="You assume the sole risk of transmitting your information as it relates to the
+use of this app, and for any data corruptions, intentional interceptions,
+intrusions or unauthorized access to information, or of any delays,
+interruptions to or failures preventing the use this app. In no event shall we be
+liable for any direct, indirect, special, consequential or monetary damages,
+including fees, and penalties in connection with your use of materials posted
+on this app or connectivity to or from this app to any other app."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. DISLCOSURE OF INFORMATION "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="DateGoal will not sell or rent your personal information to anyone, for any
+reason, at any time. DateGoal uses and discloses your personal information
+only as follows: (a) to analyze usage and improve the services, (b) to deliver to
+you any administrative notices, alerts and communications relevant to your
+use of the services, (c) to fulfill your requests for certain services, (d) for market
+research, troubleshooting problems, detecting and protecting against error,
+fraud or other criminal activity. Notwithstanding the foregoing, DateGoal
+reserves the right (and you authorize us) to share or disclose your personal
+information when we determine, in our sole discretion, that the disclosure of
+such information is necessary or appropriate to enforce our rights against you
+or in connection with a breach by you of Privacy Policy, to prevent prohibited or
+illegal activities, or when required by any applicable law, rule regulation or
+other legal process."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. AGE OF CONSENT  "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Even though our app is not designed for use by anyone under the age of 18, we
+realize that a child may attempt to access the app. We do not knowingly collect
+personally identifiable information from a child. If you are a parent or guardian
+and believe your child is using our app, please contact us. We may ask for
+proof of identification before we remove any information to prevent malicious
+removal of information. If we discover on our own that a child is accessing our
+app, we will delete the information as soon as we discover it, we will not use
+the information for any purpose, and we will not disclose the information to
+third parties. You acknowledge that we do not verify the age of our users nor do
+we have any liability to do so. If you are a child, please seek the permission of a
+parent or guardian before accessing the app."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. CALIFORNIA CONSUMER PRIVACY ACT "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="9.1 Please see the Supplemental Notice for California Residents below for
+additional details on rights available to California residents, and how to
+exercise such rights."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="9.2 This Supplemental Privacy Notice for California Residents supplements the
+information in our Privacy Policy above, and except as provided herein, applies
+solely to California residents. It applies to personal information we collect on or
+through the app and through other means."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="9.3 California law requires us to disclose information regarding the categories
+of personal information that we have collected about California consumers (as
+that term is defined in the California Consumer Privacy Act (CCPA)), the
+categories of sources from which the information was collected, the business or
+commercial purposes (as those terms are defined by applicable law) for which
+the information was collected, and the categories of parties with whom we
+share personal information."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="9.4 We or our service providers may collect the below categories of information
+for the following business or commercial purposes (as those terms are defined
+in applicable law):"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Detecting, protecting against, and prosecuting privacy and security
+incidents and fraudulent or illegal activity;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Detecting, protecting against, and prosecuting privacy and security
+incidents and fraudulent or illegal activity;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Other uses that advance our commercial or economic interests; and"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="Other uses about which we notify you."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. GOVERNING LAW"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="This Privacy Policy shall be governed by and in accordance with the internal
+laws of the United States. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. CHANGES TO OUR PRIVACY POLICY"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="DateGoal reserves the right to change this privacy policy at any time. If we
+decide to change this Privacy Policy, we will post those changes on the app so
+our users are always aware of what information we collect, use, and disclose.
+In all cases, your continued use of our app after any change to this Privacy
+Policy will constitute your acceptance of such change. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. ACCEPTANCE "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/sfprotext_bold"
+                android:layout_marginRight="20dp"
+                android:text="By accessing our app, you have willingly accepted the terms of this Privacy
+Policy. "/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

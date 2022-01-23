@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true">
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        tools:context=".ui.home.Filter">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="50dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/greybgcurve"
+                    android:backgroundTint="#F5F5F5"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:background="@drawable/greybgcurve"
+                        android:backgroundTint="#fff"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout11">
+
+                        <ToggleButton
+                            android:id="@+id/button26"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Straight"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Straight"
+                            android:textOn="Straight"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+                        <ToggleButton
+                            android:id="@+id/button27"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Lesbian"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Lesbian"
+                            android:textOn="Lesbian"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button26" />
+
+                        <ToggleButton
+                            android:id="@+id/button28"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Bisexual"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Bisexual"
+                            android:textOn="Bisexual"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button27" />
+
+                        <ToggleButton
+                            android:id="@+id/button29"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Gay"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Gay"
+                            android:textOn="Gay"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button28" />
+
+                        <ToggleButton
+                            android:id="@+id/button30"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Queer"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Queer"
+                            android:textOn="Queer"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button29" />
+
+                        <ToggleButton
+                            android:id="@+id/button31"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="LGBTQ"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="LGBTQ"
+                            android:textOn="LGBTQ"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button30" />
+
+                        <ToggleButton
+                            android:id="@+id/button19"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Coming Out"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Coming Out"
+                            android:textOn="Coming Out"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button31" />
+
+                        <ToggleButton
+                            android:id="@+id/button33"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="others"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="others"
+                            android:textOn="others"
+                            android:textSize="14sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button19" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn_expand_sexulpreference"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/upselector"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="16dp"
+                            android:text="Sexual preference"
+                            android:textColor="#171717"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:background="@drawable/greybgcurve"
+                        android:backgroundTint="#fff"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout10">
+
+                        <ToggleButton
+                            android:id="@+id/button20"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="American Indian/Alaska Native"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="American Indian/Alaska Native"
+                            android:textOn="American Indian/Alaska Native"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+                        <ToggleButton
+                            android:id="@+id/button21"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Asian"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Asian"
+                            android:textOn="Asian"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button20" />
+
+                        <ToggleButton
+                            android:id="@+id/button22"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Black/African American"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Black/African American"
+                            android:textOn="Black/African American"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+                        <ToggleButton
+                            android:id="@+id/button23"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Hispanic/Latino"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Hispanic/Latino"
+                            android:textOn="Hispanic/Latino"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+                        <ToggleButton
+                            android:id="@+id/button24"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Native Hawaiian/Other Pacific Islander"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Native Hawaiian/Other Pacific Islander"
+                            android:textOn="Native Hawaiian/Other Pacific Islander"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+                        <ToggleButton
+                            android:id="@+id/button25"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="White"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="White"
+                            android:textOn="White"
+                            android:textSize="14dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button24" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn_expand_ethnicity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/upselector"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="16dp"
+                            android:text="Ethnicity"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:layout_editor_absoluteX="-34dp"
+                            tools:layout_editor_absoluteY="-1371dp">
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:background="@drawable/greybgcurve"
+                        android:backgroundTint="#fff"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout9">
+
+                        <ImageButton
+                            android:id="@+id/imgbtn_expand_agerange"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/upselector"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="16dp"
+                            android:text="Prefer age range"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <com.google.android.material.slider.RangeSlider
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:stepSize="10.0"
+                            android:theme="@style/MyMaterialTheme"
+                            android:valueFrom="18"
+                            android:valueTo="90"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:values="@array/initial_slider_values" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="52dp"
+                        android:fontFamily="@font/sfprotextregular"
+                        android:text="Search Criteria"
+                        android:textColor="#171717"
+                        android:textSize="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="32dp"
+                        android:background="@drawable/greybgcurve"
+                        android:backgroundTint="#fff"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView24">
+
+                        <ToggleButton
+                            android:id="@+id/toggleButton18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginBottom="32dp"
+                            android:background="@drawable/toggleseletorset"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:text="Dating"
+                            android:textAllCaps="false"
+                            android:textColor="#499D2F"
+                            android:textOff="Dating"
+                            android:textOn="Dating"
+                            android:textSize="16dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+                        <ToggleButton
+                            android:id="@+id/toggleButton19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/toggleseletorset"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:text="Friendship"
+                            android:textAllCaps="false"
+                            android:textColor="#499D2F"
+                            android:textOff="Friendship"
+                            android:textOn="Friendship"
+                            android:textSize="16dp"
+                            app:layout_constraintEnd_toStartOf="@+id/toggleButton20"
+                            app:layout_constraintStart_toEndOf="@+id/toggleButton18"
+                            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+                        <ToggleButton
+                            android:id="@+id/toggleButton20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="24dp"
+                            android:background="@drawable/toggleseletorset"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:text="Both"
+                            android:textAllCaps="false"
+                            android:textColor="#499D2F"
+                            android:textOff="Both"
+                            android:textOn="Both"
+                            android:textSize="16dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+                        <ImageButton
+                            android:id="@+id/imgbtn_expand_lookingfor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/upselector"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="16dp"
+                            android:text="Looking for"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:background="@drawable/greybgcurve"
+                        android:backgroundTint="#fff"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+                        <ToggleButton
+                            android:id="@+id/button16"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Transgender"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Transgender"
+                            android:textOn="Transgender"
+                            android:textSize="14dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+                        <ToggleButton
+                            android:id="@+id/button14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Female"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Female"
+                            android:textOn="Female"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+                        <ToggleButton
+                            android:id="@+id/button15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:background="@drawable/roundbtnborderselector"
+                            android:fontFamily="@font/sfprotext_semibold"
+                            android:padding="20dp"
+                            android:text="Male"
+                            android:textAllCaps="true"
+                            android:textColor="#454545"
+                            android:textOff="Male"
+                            android:textOn="Male"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/upselector"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="16dp"
+                            android:text="I am intrested in"
+                            android:textColor="#171717"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="32dp"
+                        android:background="@drawable/greybgcurve"
+                        android:backgroundTint="#fff"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout12">
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="16dp"
+                            android:text="Location"
+                            android:textColor="#171717"
+                            android:textSize="18dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <ExpandableListView
+                            android:id="@+id/spinner2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/textView30"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="@drawable/roundborder"
+                            android:divider="@android:color/darker_gray"
+                            android:dividerHeight="0.5dp"
+                            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                            android:padding="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView30">
+
+                        </ExpandableListView>
+
+                        <ImageButton
+                            android:id="@+id/imgbtn_expand_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/upselector"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/floatingActionButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="24dp"
+                        android:clickable="true"
+                        android:scaleType="centerCrop"
+                        app:backgroundTint="#ffff"
+                        app:elevation="6dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/cross" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+</ScrollView>

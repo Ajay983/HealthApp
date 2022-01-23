@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottomcard"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/english"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/back_tabs"
+                    android:backgroundTint="@color/orangeasli"
+                    android:padding="16dp"
+                    android:text="English"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/French"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="French"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/Dutch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Dutch"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/Spanish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Spanish"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/chine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Mandarin Chinese"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/Hindi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Hindi"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/arab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Standard Arabic"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/Russian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Russian"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/Portuguese"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Portuguese"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/Japanese"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Japanese"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/indo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Bahasa Indonesia"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/mly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Bahasa Malay"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/thai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/botombuttonselector"
+                    android:padding="16dp"
+                    android:text="Thai"
+                    android:textColor="@color/gray"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>
